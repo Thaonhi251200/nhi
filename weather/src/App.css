@@ -1,0 +1,30 @@
+.main {
+    width: 500px;
+    /* height: 600px; */
+    background-image: linear-gradient(to right,#2980B9 ,#6DD5FA);
+    padding: 20px 40px ;
+    color: #fff;
+    border-radius: 8px ;
+    /* margin: 40px; */
+}
+
+.text {
+    width: 50%;
+    line-height: 40px;
+}
+img {
+    width: 50%;
+}
+
+.contain {
+    display: flex;
+}
+h1 {
+    text-align: center;
+}
+.info_1 {
+    line-height: 10px;
+}
+p {
+    font-size: 20px;
+}
