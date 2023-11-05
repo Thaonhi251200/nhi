@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    background: orange;
+    height: 100px;
+    position: relative;
+}
+.header .toggle {
+    padding: 10px;
+    border: 1px solid #fff;
+}
+.header .sidebar {
+    width: 30%;
+    height: 100vh;
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-110%);
+    transition: 0.7s;
+}
+.header .sidebar.active {
+    transform: translateX(0%);
+}
+.header .right { 
+    width: 70%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform:translateY(-110%);
+    transition: 0.7s;
+
+}
+.header .right.active {
+    transform:translateY(0);
+}
